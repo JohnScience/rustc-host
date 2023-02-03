@@ -8,6 +8,7 @@ description = "Get rustc version."
 documentation = "https://docs.rs/rustc-host"
 readme = "README.md"
 repository = "https://github.com/JohnScience/rustc-host"
+license = "MIT OR Apache-2.0"
 # license-file | not needed
 keywords = ["rustc", "version", "host", "target", "triple"]
 categories = ["development-tools::build-utils"] # https://crates.io/category_slugs
