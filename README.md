@@ -46,6 +46,11 @@ rustc-host
 x86_64-pc-windows-msvc
 ```
 
+## Features
+
+* `unsafe` - disabled by default, enables unsafe code that reuses the `String`
+buffer obtained from `rustc -Vv` instead of allocating a new one.
+
 ## License
 
 <sup>
