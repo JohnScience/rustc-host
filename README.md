@@ -3,9 +3,9 @@
 [![crates.io](https://img.shields.io/crates/v/rustc-host.svg)][`rustc-host`]
 [![crates.io](https://img.shields.io/crates/d/rustc-host.svg)][`rustc-host`]
 
-Library for getting the so-called "host triple" of rustc.
+Combined crate (ibrary + binary) for getting the so-called "host triple" of rustc.
 
-## Usage
+## Usage as a library
 
 Add this to your Cargo.toml:
 
@@ -26,10 +26,24 @@ fn main() {
 }
 ```
 
-## Running example
+## Usage as a binary
+
+### Installation
 
 ```console
-cargo run --example host
+cargo install rustc-host
+```
+
+### Usage
+
+```console
+rustc-host
+```
+
+#### Example output
+
+```text
+x86_64-pc-windows-msvc
 ```
 
 ## License
