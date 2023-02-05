@@ -3,7 +3,7 @@
 [![crates.io](https://img.shields.io/crates/v/rustc-host.svg)][`rustc-host`]
 [![crates.io](https://img.shields.io/crates/d/rustc-host.svg)][`rustc-host`]
 
-Combined crate (ibrary + binary) for getting the so-called "host triple" of rustc.
+Combined crate (library + binary) for getting the so-called "host triple" of rustc.
 
 ## Usage as a library
 
