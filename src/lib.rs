@@ -19,7 +19,7 @@ pub enum Error {
 /// # Implementation details
 ///
 /// *At the moment of writing*, it relies on the output of `rustc -vV`, which is expected to be
-/// naerly in the following format:
+/// nearly in the following format:
 ///
 /// ```text
 /// rustc 1.66.0 (69f9c33d7 2022-12-12)
