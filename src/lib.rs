@@ -12,7 +12,7 @@ pub enum Error {
 }
 
 /// Returns the host triple of the current rustc using CLI.
-/// 
+///
 /// Notice that such implementation relies on presence of `rustc` on the machine
 /// where this function is called. However, it can be ran in a build script.
 ///
