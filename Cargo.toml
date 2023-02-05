@@ -1,10 +1,10 @@
 [package]
 name = "rustc-host"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Dmitrii Demenev <demenev.dmitriy1@gmail.com>"]
 edition = "2021"
 rust-version = "1.56.1" # https://github.com/foresterre/cargo-msrv/issues/244
-description = "Get rustc version."
+description = "Get host target triplet of rustc."
 documentation = "https://docs.rs/rustc-host"
 readme = "README.md"
 repository = "https://github.com/JohnScience/rustc-host"
@@ -24,3 +24,7 @@ autobenches = false
 
 [dependencies]
 thiserror = "1.0.38"
+
+[[bin]]
+name = "host"
+doc = false
